@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bar{
+    background-color: #F8DE22;
+}
+
+@media (max-width: 990px){
+    .bgcol{
+        background-color: #E25E3E;
+    }
+
+    nav .nav-item a{
+        color: aliceblue;
+    }
+}
+
+.btn{
+    background-color: #E25E3E;
+    padding: 10px 35px 10px 35px;
+    border: none;
+    color: aliceblue;
+}
+
+.btn:hover{
+    background-color: #84A7A1;
+    padding: 10px 35px 10px 35px;
+    border: none;
+    color: black;
+}
+
+
+/*Image Rotation*/
+.rotate {
+    animation: rotateImg 10s linear infinite;
+    transition: height 0.5s ease;
+}
+.ping:hover{
+    text-shadow:1px 2px 3px black;
+}
+.ping{
+    text-shadow:5px 8px 3px black;
+}
+
+@keyframes rotateImg {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+
+/* Set background image */
+.kon{
+    background-image: url('../mpimg/blue_burger.jpg');
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Style for your content */
+.content {
+    text-align: center;
+    color: white;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.citem{
+    height: 750px;
+}
+
+.cimg{
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(0.7);
+}
